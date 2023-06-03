@@ -1,7 +1,0 @@
-project: zeus
-target: minitercallback
-duration: 300
-
-cmds:
-  - cmd: python3 /zeus/fuzz/fuzz_targets/minitercallback.py
-    libfuzzer: true
