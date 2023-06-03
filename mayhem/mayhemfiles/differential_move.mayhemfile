@@ -1,0 +1,7 @@
+project: zeus
+target: differential_move
+duration: 300
+
+cmds:
+  - cmd: python3 /zeus/fuzz/fuzz_targets/differential_move.py
+    libfuzzer: true
